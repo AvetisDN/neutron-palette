@@ -8,4 +8,4 @@ Dark themes based on Neutron palette by Gogh project
 
 ## Screenshots
 ### Neutron Palette
-![Neutron]()
+![Neutron](https://i.imgur.com/iOnlmYd.png)

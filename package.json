@@ -25,6 +25,11 @@
                 "label": "Neutron Palette",
                 "uiTheme": "vs-dark",
                 "path": "./themes/neutron-palette.json"
+            },
+            {
+                "label": "Neutron Palette Bit Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/neutron-palette-darker.json"
             }
         ]
     }

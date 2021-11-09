@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+body {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    background-color: #2b2e33;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.container > div {
+    padding: 1rem;
+    color: #ddd;
+    border-radius: .5rem;
+    box-shadow: rgba(0,0,0,.2) 0 1px 2px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid rgba(255,255,255,.1);
+    background-color: attr('data-color');
+}
+
+.dark1 {
+    background: #1c1e22;
+}
+.dark2 {
+    background: #24262b;
+}
+.dark3 {
+    background: #2b2e33;
+}
+.dark4 {
+    background: #3a3e44;
+}
+.red {
+    background: #cf4843;
+}
+.green {
+    background: #5ab977;
+}
+.yellow {
+    background: #deb566;
+    color: #222429 !important;
+}
+.indigo {
+    background: #7289a7;
+}
+.purple {
+    background: #a4799d;
+}
+.blue {
+    background: #3f94a8;
+}
+.cyan {
+    background: #58b8a0;
+    color: #222429 !important;
+}
+.light1 {
+    background: #c5c7ce;
+    color: #222429 !important;
+}
+.light2 {
+    background: #e6e8ef;
+    color: #222429 !important;
+}
