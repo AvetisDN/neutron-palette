@@ -1,0 +1,31 @@
+{
+    "name": "neutron-palette",
+    "displayName": "Neutron Palette",
+    "description": "Dark theme based on Neutron Palette from Gogh project",
+    "version": "0.0.1",
+    "publisher": "Avetis",
+    "author": {
+        "name": "AvetisDN",
+        "email": "avetisdn@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon/neutron-palette.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AvetisDN/neutron-palette"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Neutron Palette",
+                "uiTheme": "vs-dark",
+                "path": "./themes/neutron-palette.json"
+            }
+        ]
+    }
+}
